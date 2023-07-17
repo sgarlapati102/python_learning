@@ -132,6 +132,8 @@ Lesson 7: Python Version Control With Git and Github - #7
 				$ git config --global alias.co checkout
 				$ git init
 				
+				git init created a default branch called master
+				
 				Now add all the contents of the folder to GIT
 				$ git add . 
 				Now commit the files added to GIT
@@ -140,6 +142,11 @@ Lesson 7: Python Version Control With Git and Github - #7
 				This commits the changes to the local repository on your machine.
 				To push this repository and changes to GitHub, you have to use git push command. before that you need to setup the 
 				repository to which you will be pushing the files from this folder
+					Log into your Github account and create a new repository python_learning. Copy its ssh path
+					Add the remote repository to your directory, we are calling it "origin"
+					git remote add origin git@github.com:sgarlapati102/python_learning.git
+					Now push the local master brach to the remote repository  origin
+					$ git push -u origin master
 		
 
 	
