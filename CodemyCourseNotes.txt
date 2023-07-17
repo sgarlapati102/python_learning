@@ -1,0 +1,132 @@
+Learning Python
+
+Using Youtube Channel Codemy.Com
+
+Lesson 1 - Installing Python
+	1) Installed from python.org. The default download for windows was Python 3.11.4 64 bit
+	2) Selected the option to add Python to windows PATH. This allows Python to be run from any dir/location
+	3) Installed to C:\Users\sg102\AppData\Local\Programs\Python>
+	
+Lesson 2 - Using Terminals
+	Windows terminals such as Command Prompt or PowerShell are limited in functionality
+	We are going to get GIT Bash Terminals https://git-scm.com
+	Installed GIT from https://git-scm.com/download/win 
+	Installed Sublime Test from https://www.sublimetext.com
+	
+Lesson 3 - Hello World with Python
+
+	Created a folder c:\srini\python_learning
+	Opened Sublime Text Editor. Set View-->Syntax to Python
+	Opened folder c:\srini\python_learning
+	In the open file typed print("Hello World!")
+	Saved the file as hello.py
+	Opened GIT Bash
+	cd /c/srini\python_learning and executed
+	python hello.py
+	We should receive "Hello World!" message
+	
+Lesson 4 - Commenting Code and Clearing The Screen
+
+	Python has modules/libraries for interacting with the OS.
+	For example if we wanted to clear the terminal screen, we would issue a command cls (for command prompt) or clear (For GIT BAsh Terminal)
+	To clear the screen from the program, we import os modules/libraries
+		import os
+		os.system('clear')
+		print("Hello World!!")
+	
+	Comments
+		# is the comment syntax for commenting a line
+		# I am printing Hello World!! to the screen
+		print("Hello World!!")
+		
+		For commenting multiple lines of code use '''
+		'''
+			Line 1 of comments
+			Line 2 of comments
+			Line 3 of comments
+		'''
+		os.system('clear')
+		
+Lesson 5 - Using Variables in Python
+		Variables are fundamental building blocks of programming
+		Variables are containers for what you want to store
+		Names your variables sensibly. If you are storing the full name of a person in a variable, call it say full_name rather than f67
+		Python variables are case sensitive. So do not do camel case variable names
+		
+Lesson 6 - Python Datatypes
+
+	Main Datatypes
+		Strings
+		Numbers
+		Lists
+		Tuples
+		Dictionaries
+		Boolean
+		
+	String
+		Basically text in quotation marks. Single quotation or double quotation does not matter
+		first_name = 'Srini' is same as first_name = "Srini"
+		
+	Numbers	
+		age = 41 not age ="41"
+		
+	Lists
+		Bit more complicated data type than String or Numbers
+		Lists are always in square brackets
+		names = ["Srini", "Archana","Smaran","Smruthi"]
+		Lists numbering starts at 0. 0th item in names is "Srini"
+		so names[0] is Srini, names[1] is Archana
+	
+	Tuples	
+		Tuples are also lists but are read only.
+		This makes them bit faster
+		Tuples are always in round brackets
+		names = ("Srini", "Archana","Smaran") --> This is a tuple. We cannot add any more members
+		
+	Dictionaries
+		Created with Curly brackets {}
+		Dictionaries are Key-Value pairs
+		Key-Value pairs are separated by Commas
+		Typically each Key-Value is on one line -- just a convention
+		 my_family = {
+	
+				"father" : "Ramulu",
+				"mother" : "Suguna",
+				"brother": "Laxman",
+				"sister" : "Jhansi",
+				"wife"	:	"Archana",
+				"son"	: "Smaran",
+				"daughter" : "Smruthi" 
+			}
+
+			print("My father is " + my_family["father"])
+					
+	Boolean
+		True or False
+		check = True
+		
+		
+		
+Lesson 7: Python Version Control With Git and Github - #7
+		
+		Create a SSH Key Pair (private and public) using the bundled KeyGen tool
+			in your Terminal default folder c:\users\sg102 create a .ssh folder, if it does not exist
+			cd to the .ssh folder
+			from this folder execute ssh-keygen.exe This is the keygen tool
+			save the key id_rsa in the .ssh folder as suggested
+			optionally when asked provide a passphrase. Remember the passphrase for future, or store it somewhere
+			the public key id_rsa.pub and the idetification/pvt key id_rsa gets saved to the .ssh folder
+			Copy the contents of id_rsa.pub to your GitHub Profile
+				Log into Github -->profile-->Settings and add the Public SSH key. You may get an email about the addition
+				Now your Github account has the public key that it uses to decipher data from your terminal. Your terminal
+				encodes the data with the private key (id_rsa)
+				
+			Now its time to Initialize GIT in the folder you are working. The instructions for initializing git are at 
+			http://johnelder.com/code/git.php#1
+				Initializing GIT in the folder means setting up the username, email and some defaults. This is the username that gets used on the machine and folder you are 
+				syncing with GIT
+		
+
+	
+	
+		
