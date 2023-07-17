@@ -125,6 +125,21 @@ Lesson 7: Python Version Control With Git and Github - #7
 			http://johnelder.com/code/git.php#1
 				Initializing GIT in the folder means setting up the username, email and some defaults. This is the username that gets used on the machine and folder you are 
 				syncing with GIT
+				Change dir to your project folder c:\srini\python_learning\
+				$ git config --global user.name "Your Name"
+				$ git config --global user.email "you@youraddress.com"
+				$ git config --global push.default matching
+				$ git config --global alias.co checkout
+				$ git init
+				
+				Now add all the contents of the folder to GIT
+				$ git add . 
+				Now commit the files added to GIT
+				$ git commit -am "Initial commit"
+				
+				This commits the changes to the local repository on your machine.
+				To push this repository and changes to GitHub, you have to use git push command. before that you need to setup the 
+				repository to which you will be pushing the files from this folder
 		
 
 	
