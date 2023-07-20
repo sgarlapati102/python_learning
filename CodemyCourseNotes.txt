@@ -149,6 +149,45 @@ Lesson 7: Python Version Control With Git and Github - #7
 					$ git push -u origin master
 		
 
+Lesson 8: Python Journaling
+			As you learn a language, journal what you learn to a book. 
+			Example https://www.amazon.com/Python-Programming-Journal-John-Elder/dp/172887968X
+			Or like this file itself
+			
+Lesson 9: Python Strings
+			Strings are encased in "" or ''
+			If you need to include actual double quotes in your string, then define your string with single quotes
+			greeting = "My boss yelled "Get me that thing""  --> this will not print correctly, so try
+			greeting = 'My boss yelled "Get me that thing"'
+			or
+			greeting = "My boss yelled \"Get me that thing\"" --> \ is the escape character
+			
+			Concatenating strings is done with a + sign.
+			+ can be used only with strings
+			
+			Python is OOP and strings are objects. You can call methods/functions supported by the objects
+			.upper(), .lower() .capitalize(), title(), .swapcase(), len(object)
+			
+			
+Lesson 10: Numbers and Math
+
+
+SQL Server Install on Local Machine
+
+	SQL Server 2022 Developer edition was installed with following properties
+		Server=localhost;Database=master;Trusted_Connection=True;
+		Install Media Folder C:\SQL2022\Developer_ENU
+		
+		Next: Install SSMS - SQL Server Management Studio
+
+
+Lesson 11: Lists in Python
+		
+		
+		
+		
+			
+			
 	
 	
 		
